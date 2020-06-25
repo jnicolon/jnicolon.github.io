@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset='utf-8'/>
+            <title>Test</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+            <link rel='stylesheet' href='./style.css' />
+
+            <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        </head>
+        <body>
+            <div class="main-container">
+                <h1>RPG character creator</h1>
+           
+            <form name="character-creation" class="character-creation" id="character-creation">
+                <ul>
+                    <li>
+                        <label for="name"></label>
+                        <input  type="text" id="character-name" placeholder="Character Name" autocomplete="off">
+                    </li>
+                    <li>
+                        <label for="class"></label>
+                        <Select id="character-class">
+                            <option value="start" id="start" selected disabled>Choose your class</option>
+                            <option value="mage" id="mage">Mage</option>
+                            <option value="warrior" id="warrior">Warrior</option>
+                            <option value="priest" id="priest">Priest</option>
+                        </Select>
+                    </li>
+                    <li>
+                        <button form="character-creation"  type="submit" class="btn btn-primary btn-sm" id="submit-btn">Create your character</button>
+                    </li>
+                </ul>
+            </form>
+            
+            <div class="all-characters" id="all-characters">
+            
+
+
+
+
+
+            </div>
+            <script src='app.js'></script>
+        </body>
+</html>

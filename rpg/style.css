@@ -1,0 +1,147 @@
+body {
+  background-color: #fff5cc;
+}
+
+.main-container {
+  margin: auto;
+  height: 100%;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.character-creation {
+  width: 600px;
+  position: relative;
+  top: 10vh;
+}
+
+.form-list {
+  position: relative;
+  top: 10vh;
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-left: 5px;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 5vh;
+  text-transform: uppercase;
+}
+
+option:disabled {
+  display: none;
+  width: 100%;
+}
+
+.all-characters {
+  position: relative;
+  width: 600px;
+  height: 100%;
+  top: 10vh;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 31% 31% 31%;
+      grid-template-columns: 31% 31% 31%;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+  overflow: hidden;
+}
+
+.one-character {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  width: 80%;
+  height: 200px;
+  -webkit-box-shadow: 2px 2px 5px #5e5d5d;
+          box-shadow: 2px 2px 5px #5e5d5d;
+  overflow: hidden;
+}
+
+.character-img {
+  height: 40%;
+  width: 40%;
+  margin-top: 30px;
+}
+
+.delete-char {
+  font-size: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.character-name {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+  max-width: auto;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 300px;
+}
+
+select {
+  width: 300px;
+}
+/*# sourceMappingURL=style.css.map */
