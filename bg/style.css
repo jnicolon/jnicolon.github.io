@@ -1,0 +1,75 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+header {
+    height: 5vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 5px 10px #b9b8b8;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.header_btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+    outline: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+    
+}
+
+
+
+.start {
+    font-weight: 1000;
+    cursor: initial;
+}
+
+.selected {
+    font-weight: 1000;
+    cursor: initial;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: wheat;
+}
+
+.bg_txt_container {
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(236, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.click_me {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px black;
+    cursor: pointer;
+    font-family: monospace;
+    outline: none;
+    transition: all ease-in 0.1s;
+
+}
+
+.click_me:hover {
+    background-color: black;
+    color: white;
+}
