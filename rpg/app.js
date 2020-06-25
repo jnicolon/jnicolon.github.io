@@ -46,7 +46,7 @@ class UI {
             const charDiv = document.createElement('div');
             charDiv.classList.add('one-character');
             charDiv.innerHTML = `
-            <img src="/img/${charClass}.png" class="character-img" alt="">       
+            <img src="./img/${charClass}.png" class="character-img" alt="">       
             <h3 class="character-name">${name}</h3>
             <h4 class="delete-char">Delete Character</h4>
             `;
